@@ -34,7 +34,7 @@ To implement the correct navigation between screens, follow the flow diagram:
 
 | Sub-option | Auto-advance | Next screens |
 |---|---|---|
-| Jsem Shoptet partner a vytvářím e-shop pro klienta | ✅ yes | → Jaký je váš partnerský kód? → Mobil → Typ subjektu + IČO |
+| Jsem Shoptet partner a vytvářím e-shop pro klienta | ✅ yes | → Jaký je váš partnerský kód? → Mobil |
 | Vytvářím e-shop pro klienta | ✅ yes | → Mobil → Typ subjektu + IČO |
 | Jiné | ❌ no — user stays to optionally type their reason, then presses "Pokračovat" | → Mobil → Typ subjektu + IČO |
 

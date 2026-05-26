@@ -628,7 +628,7 @@
     s_mobil_migrace:() => 's_subjekt',
     s_situace:      () => 's_mobil_other',
     s_url_existing: () => 's_mobil_other',
-    s_mobil_other:  () => 's_subjekt',
+    s_mobil_other:  a => a.jineReason === 'shoptet_partner' ? 's_end' : 's_subjekt',
     s_partner:      () => 's_mobil_other',
     s_partner_code: () => 's_mobil_other',
     s_subjekt:      () => 's_end',
